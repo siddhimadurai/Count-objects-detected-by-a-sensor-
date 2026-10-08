@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int i, object;
+
+    for(i = 1; i <= 5; i++)
+    {
+        printf("Enter 1 if object is detected, 0 if not: ");
+        scanf("%d", &object);
+
+        if(object == 1)
+        {
+            printf("Object detected\n");
+        }
+        else
+        {
+            printf("No object detected\n");
+        }
+    }
+
+    getch();
+}
+
